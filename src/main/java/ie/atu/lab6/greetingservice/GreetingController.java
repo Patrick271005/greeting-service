@@ -11,7 +11,7 @@ public class GreetingController {
     public String health() {
         return "ok";
     }
-
+//test
     @GetMapping("/api/greet/{name}")
     public String greet(@PathVariable String name) {
         return "Hello, " + name + " from Service AI";
